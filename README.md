@@ -8,6 +8,8 @@
   
   Resource: Ncb i7 laptop, and portable BlueJ version.
   
+  https://en.wikipedia.org/wiki/XOR_gate
+  
   The problem space is X-OR inputs. So the model does xor input prediction.
   
   Given two numbers in X-OR space, the model will try to guess the output.
