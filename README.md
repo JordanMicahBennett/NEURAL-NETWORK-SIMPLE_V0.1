@@ -7,12 +7,10 @@
   Date: August 7, 2018 to August 8, 2018. (1 hour used each of the two days)
   
   Resource: Ncb i7 laptop, and portable BlueJ version.
+ 
+  The problem space is [X-OR inputs]( https://en.wikipedia.org/wiki/XOR_gate). So the model does xor input prediction.
   
-  https://en.wikipedia.org/wiki/XOR_gate
-  
-  The problem space is X-OR inputs. So the model does xor input prediction.
-  
-  Given two numbers in X-OR space, the model will try to guess the output.
+  Given two numbers in [X-OR space](https://en.wikipedia.org/wiki/XOR_gate), the model will try to guess the output.
   
   For:
   
