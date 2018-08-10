@@ -20,7 +20,7 @@
   
   c) Input=(0,1) output should be 1
   
-  d) Input=(1,0) output should be 0
+  d) Input=(1,1) output should be 0
   
 
  
