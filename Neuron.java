@@ -116,7 +116,8 @@ public class Neuron
     {
         for ( int pLI = 0 ; pLI < priorLayer.size ( ); pLI ++ ) //pLI -> prior layer iterator
         {
-            double priorDeltaWeight = priorLayer.get ( pLI ).getSynapses ( ).get ( identifierIndex ).getDeltaWeight ( );
+            double priorDeltaWeight = priorLayer.get ( pLI ).getSynapses ( ).get ( identifierIndex ).getDeltaWeight ( ); //This identifierIndex goes up to two at most, as generated in NeuralNetwork_xOR constructor @lsI, while priorLayer size goes up to three. This is why 1 is subtracted from synonymousLayer size in the inner loop of the weight update section, where updateWeights function is called in the NeuralNetwork_xOR class.
+
 
             double synonymousDeltaWeight = eta * gradient * priorLayer.get ( pLI ).getOutcome ( ) + ( alpha * priorDeltaWeight );
 
