@@ -11,7 +11,7 @@
   * a) Input=(0,0) output should be 0
   * b) Input=(1,0) output should be 1
   * c) Input=(0,1) output should be 1
-  * d) Input=(1,0) output should be 0
+  * d) Input=(1,1) output should be 0
   * 
   */
  
