@@ -878,7 +878,7 @@ public class NeuralNetwork_Execution
 	        inputValues.add ( 0.0 );
 	        inputValues.add ( 1.0 );
 	        neuralNetwork_xOR.forwardPropagation ( inputValues );
-	        System.out.println ( "\n\nGuess : " + neuralNetwork_xOR.getOutcomes ( ).get ( 0 ) + "(Correct Value is 1 for [1,0]) \n Press return to continue\n\n" );
+	        System.out.println ( "\n\nGuess : " + neuralNetwork_xOR.getOutcomes ( ).get ( 0 ) + "(Correct Value is 1 for [0,1]) \n Press return to continue\n\n" );
 	        scanner.nextLine ( );
 	        System.out.println ( "\f" );
 	        renderMenu ( neuralNetwork_xOR );
