@@ -70,7 +70,7 @@ public class Neuron
         //Note: subsequentLayer.size ( ) - 1 applies, because subsequentLayer size exceeds the number of weights generated for this particular neuron.
         //...Eg, for hidden layer neuron 2, number of weights generated (in constructor) is < nextInputWeightCardinality, or less than 1, starting at 0
         //...so this means 1 weight was generated at 0. So, Going up to < subsequent layer size = 2 (aka going up to index 1) is illegal while accessing
-        //...( sLI ).getWeight ( ), because the 1'nth weight simply doesn't exist in this scenario.
+        //...( sLI ).getWeight ( ), because the 1'nth weight simply doesn't exist in this scenario!
         
         return sigma;
     }
