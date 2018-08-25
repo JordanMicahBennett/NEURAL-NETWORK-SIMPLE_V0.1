@@ -81,7 +81,7 @@ public class NeuralNetwork_xOR
             Layer subsequentLayer = layers.get ( lsI + 1 );
             Layer hiddenLayer = layers.get ( lsI );
 
-            for ( int lI = 0; lI < hiddenLayer.size ( ) - 1; lI ++ )
+            for ( int lI = 0; lI < hiddenLayer.size ( ); lI ++ )
                 hiddenLayer.get ( lI ).computeHiddenGradient ( subsequentLayer );
         }
 
