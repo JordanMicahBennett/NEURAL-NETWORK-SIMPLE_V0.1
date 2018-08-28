@@ -22,5 +22,7 @@
   
   d) Input=(1,1) output should be 0
   
+  ![Alt text](https://github.com/JordanMicahBennett/NEURAL-NETWORK-SIMPLE_V0.1/blob/master/screenshot.png "default page")
+  
 
  
