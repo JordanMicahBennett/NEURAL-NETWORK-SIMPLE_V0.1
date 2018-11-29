@@ -27,12 +27,9 @@ public class NeuralNetwork_xOR
                     layers.get ( lsI ).add ( new Neuron ( eta, alpha, lI, priorInputWeightCardinality, nextInputWeightCardinality ) );                          
                 }
         
-                for ( int lI = 0; lI <= layers.get ( lsI ).size ( ); lI ++ ) //<= implies generation of an extra bias neuron, for variability of activations beyond origin
-                {
-                    Neuron lastNeuronInLayer = layers.get ( lsI ).get ( layers.get ( lsI ).size ( ) - 1 );
-                    
-                    lastNeuronInLayer.setOutcome ( 1.0 );     //bias neuron 
-                }
+                Neuron lastNeuronInLayer = layers.get ( lsI ).get ( layers.get ( lsI ).size ( ) - 1 );
+
+                lastNeuronInLayer.setOutcome ( 1.0 );     //bias neuron 
         }
     }
 
